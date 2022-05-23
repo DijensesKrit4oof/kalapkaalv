@@ -152,8 +152,29 @@ nav div a:hover img{
   transform: scale(1.3) rotate(6deg);
 }
 
-footer{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.órarend{
+margin: 1rem auto;
+display: block;
+width: 50%;
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+th{
+    text-align: center;
+    width: 16%;
+}
+table,th,td{
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+.balsor{
+    width: 3%;
+    padding-left: 3px;
 }
