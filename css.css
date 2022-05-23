@@ -109,3 +109,28 @@ nav{
     width:17%;
     background-color: palegreen;
 }
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.órarend{
+margin: 1rem auto;
+display: block;
+width: 50%;
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+th{
+    text-align: center;
+    width: 16%;
+}
+table,th,td{
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+.balsor{
+    width: 3%;
+    padding-left: 3px;
+}
