@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #121212 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #121212;
+    border-radius: 8px;
+    border: 3px groove #ffffff;
+  }
+
+body{
+    font-family: 'Teko', sans-serif;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    background-color: bisque;
+
+}
+img{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 15rem;
+    background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-6/277784326_392891799503080_7566740441068492231_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=-nvRY-5wnmsAX9ZHD1r&_nc_ht=scontent-vie1-1.xx&oh=00_AT_YVo6Gz2KuACmtvniK0S9N_U9rLJ30_u3n4tohEeXzAA&oe=629168CB");
+    background-size: cover;
+    background-position-y: 54%;
+    background-color: aqua;
+    position: relative;
+    border-bottom: white ridge .8rem;
+}
+
+
+.faszom{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin-left: .5rem;
+}
+
+.faszom li a{
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0.8rem 2.1rem;
+    margin: 1.2rem .4rem;
+    background-color: rgba(23, 179, 236, 0.9);
+    color: white;
+    border-radius: 5px;
+}
+
+.faszom li a:hover{
+    border-left: white solid 0.3rem;
+    padding-left: 1.8rem;
+    transition: all 0.2s;
+    text-shadow: -3px 3px 0px rgba(0,0,0,0.53);
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+#geci{
+    height: 400rem;
+    background-color: aquamarine;
+}
+
+.kepp{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: .4rem;
+
+}
+
+.kaki{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main{
+    width: 83%;
+    background-color: thistle;
+}
+
+nav{
+    width:17%;
+    background-color: palegreen;
+}
