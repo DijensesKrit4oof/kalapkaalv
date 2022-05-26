@@ -103,11 +103,7 @@ a{
     flex-flow: row wrap;
 }
 
-main{
-    width: 82%;
-    background-color: thistle;
-    border-right: rgb(171,171,171) solid 0.4rem;
-}
+
 
 nav {
     font-size: 48px;
@@ -180,4 +176,50 @@ table,th,td{
 .balsor{
     width: 3%;
     padding-left: 3px;
+}
+
+main{
+  color:rgb(46, 46, 46);
+  width: 82%;
+  border-right: rgb(171,171,171) solid 0.4rem;
+  background: rgb(250,151,16);
+  background: linear-gradient(155deg, rgba(250,151,16,0.8953717229079132) 19%, rgba(253,181,46,0.7777246640843838) 38%, rgba(255,196,60,0.7945313867734594) 56%, rgba(237,163,39,0.7525145800507703) 76%, rgba(255,62,6,0.6600776052608543) 94%);
+}
+
+#faszom{
+  width: 90%;
+  height:16rem;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.targy{
+  background-color:rgba(255, 255, 255, 0.584);
+  width: 80%;
+  margin: 2rem auto;
+  padding: 3rem;
+  border: 1rem ridge gray;
+  border-radius: 0.5rem;
+
+}
+
+#hehehe{
+  height:2rem;
+}
+
+#targef{
+  display: block;
+  margin-right: 4rem;
+}
+
+.geciXDD{
+  width: 60rem;
+  margin: 1rem 2rem 0 0; 
+  display: block;
+}
+
+.huszár{
+  display: inline-block;
+  margin-left: 6rem;
 }
