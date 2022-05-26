@@ -161,23 +161,62 @@ h1{
     font-size: 2rem;
 }
 .órarend{
-margin: 1rem auto;
-display: block;
-width: 50%;
+  display: block;
+  margin: 30px auto 0px auto;
+  width: 80%;
+  height: 30rem;
 }
-table{
-    width: 90%;
-    margin: auto;
+.főcím{
+margin-top: 20px;
+display:block;
 }
-th{
-    text-align: center;
-    width: 16%;
+.főcím h1{
+  font-size: 40px;
 }
-table,th,td{
-    border: black 1px solid;
-    border-collapse: collapse;
+.kép{
+  border: rgba(0, 0, 0, 0.6) groove 2px;
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  background-color: #811331;
+  display: inline-block;
 }
-.balsor{
-    width: 3%;
-    padding-left: 3px;
+.képképe{
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+}
+.kép h3{
+  text-align: center;
+  font-size: 120%;
+}
+.kép h4{
+  text-align: center;
+  font-size: 90%;
+}
+.kép a{
+display: inline-block;
+vertical-align: top;
+}
+.kép a:hover{
+  background-color: #834757;
+}
+.étkeztetés{
+  width: 85%;
+  border: rgba(0, 0, 0, 0.6) groove 2px;
+  margin-top: 5%;
+  margin-left: 3%;
+  background-color: #a8a2de;
+  padding-left: 2%;
+}
+.étkeztetés p{
+  border-left: rgba(0, 0, 255, 0.7) solid 4px;
+  background-color: lightblue;
+  display: inline-block;
+  width: 95%;
+  margin-bottom: 10px;
+}
+div h1{
+  margin-bottom:20px;
 }
